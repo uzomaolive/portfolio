@@ -9,5 +9,36 @@ body {
 }
 
 .navbar{
-    bac
+    color: black;
+    display: flex;
+    flex-direction: column;
+
 }
+
+
+#navigation {
+    width:750px;
+    margin:0 auto;
+    list-style:none;
+    }
+ #navigation li {
+    float:left;
+    }
+ #navigation a {
+    display:block;
+    text-align:center;
+    width:120px; /* fixed width */
+    text-decoration:none; 
+    font-size: 15px;
+    padding: -10px;
+    color: black;
+}
+
+.logo {
+    
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        padding-bottom: 10px;
+    }
