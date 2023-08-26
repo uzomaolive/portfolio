@@ -4,6 +4,8 @@
 *{
     text-decoration: none;
 }
+
+
 /* fonts */
 .roboto-mono {
     font-family: 'Roboto Mono', monospace;
@@ -22,11 +24,14 @@
 .poiret {
     font-family: 'Poiret One', cursive;
 }
+.almarai {
+    font-family: 'Almarai', sans-serif;
+}
 
 /* fonts */
 
 .font-size {
-    font-weight: 300;
+    font-weight: 200;
     font-size: large;
 }
 
@@ -70,3 +75,22 @@ body {
         margin-left: 10px;
         padding-bottom: 10px;
     }
+
+    .section2 {
+        display: flex;
+        padding-left:150px;
+        
+    }
+.intro{
+    color: #61088A;
+    font-size: 40px;
+    font-family: Roboto Mono;
+    font-weight: 400;
+    line-height: 57.65px;
+    
+}
+
+.intro-about{
+    font-size: 17px;
+    padding-top: 40px;
+}
