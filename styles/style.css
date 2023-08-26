@@ -76,9 +76,13 @@ body {
         padding-bottom: 10px;
     }
 
+    .goleft {
+        padding-left: 30px;
+    }
+
     .section2 {
         display: flex;
-        padding-left:150px;
+        padding-left:130px;
         
     }
 .intro{
@@ -93,4 +97,14 @@ body {
 .intro-about{
     font-size: 17px;
     padding-top: 40px;
+}
+
+.second-intro {
+    padding-top: 10.25rem;
+    padding-left: 10.25rem;
+}
+
+.right-intro {
+    padding-right: 9.75rem;
+    padding-top: 5rem;
 }
