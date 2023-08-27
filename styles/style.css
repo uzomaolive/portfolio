@@ -133,3 +133,32 @@ color: #61088A;
  line-height: 79.49px;
  padding-left: 12rem;
 }
+
+.projects {
+    padding-left: 18rem;
+    padding-top: 2rem;
+    border-left:#61088A;
+}
+
+.twenty {
+font-size: 30px;
+padding-right:3rem;
+}
+
+
+/* .verticalLine {
+    height: 300px;
+    border-right: 1px solid #000900;
+    position: absolute;
+    right: 50%;
+} */
+
+.line{
+
+ width: 2px;
+ height: 450px;
+ transform: translate(6px, -7px);
+ background-color: #61088A;
+ margin-left: 25%;
+margin-top: -20%;
+}
