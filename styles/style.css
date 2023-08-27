@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poiret+One&family=Roboto+Mono:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poiret+One&family=Roboto+Mono:wght@300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poiret+One&family=Roboto+Mono:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
@@ -134,10 +134,17 @@ color: #61088A;
  padding-left: 12rem;
 }
 
+.project {
+    flex-direction: column;
+}
 .projects {
-    padding-left: 18rem;
+    padding-left: 15rem;
     padding-top: 2rem;
     border-left:#61088A;
+    flex-direction: column;
+}
+.projects-detail {
+    margin: 20px 0;
 }
 
 .twenty {
@@ -154,11 +161,17 @@ padding-right:3rem;
 } */
 
 .line{
+    width: 397px;
+    height: 2px;
+    transform: rotate(90deg);
+    position: relative;
+    top: 198px;
+    left: -100px;
+    background: #61088A;
+}
 
- width: 2px;
- height: 450px;
- transform: translate(6px, -7px);
- background-color: #61088A;
- margin-left: 25%;
-margin-top: -20%;
+.aboutme-detail {
+    color: #61088A;
+    font-weight: 600;
+
 }
