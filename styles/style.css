@@ -162,7 +162,7 @@ padding-right:3rem;
 
 .line{
     width: 2px;
-    height: 400px;
+    height: 450px;
     /* transform: rotate(90deg);
     position: relative; */
     top: 198px;
@@ -217,4 +217,8 @@ li{
 }
 /* Add any other styling as needed */
 
- 
+ .about-button {
+    height: 40px;
+    width:125px;
+    margin: 20px;
+ }
