@@ -1,162 +1,152 @@
-@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poiret+One&family=Roboto+Mono:wght@100;200;300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poiret+One&family=Roboto+Mono:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poiret+One&family=Roboto+Mono:wght@100;200;300;400;500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poiret+One&family=Roboto+Mono:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
-*{
-    text-decoration: none;
+* {
+  text-decoration: none;
 }
-
 
 /* fonts */
 .roboto-mono {
-    font-family: 'Roboto Mono', monospace;
-
+  font-family: "Roboto Mono", monospace;
 }
 
 .sans-serif {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .ibm {
-    font-family: 'IBM Plex Sans', sans-serif;
-
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .poiret {
-    font-family: 'Poiret One', cursive;
+  font-family: "Poiret One", cursive;
 }
 .almarai {
-    font-family: 'Almarai', sans-serif;
+  font-family: "Almarai", sans-serif;
 }
 
 /* fonts */
 
 .font-size {
-    font-weight: 200;
-    font-size: large;
+  font-weight: 200;
+  font-size: large;
 }
 /* colors */
-.purple{
-    color:#61088A;
+.purple {
+  color: #61088a;
 }
 /* colors */
 body {
-    /* background-color: #F8F7F1; */
-    margin: 0;
-    padding: 0;
+  /* background-color: #F8F7F1; */
+  margin: 0;
+  padding: 0;
 }
 
-.navbar{
-    color: black;
-    display: flex;
-    flex-direction: column;
-
+.navbar {
+  color: black;
+  display: flex;
+  flex-direction: column;
 }
-
 
 #navigation {
-    width:750px;
-    margin:0 auto;
-    list-style:none;
-    }
- #navigation li {
-    float:left;
-    }
- #navigation a {
-    display:block;
-    text-align:center;
-    width:120px; /* fixed width */
-    text-decoration:none; 
-    font-size: 15px;
-    padding: -10px;
-    color: black;
+  width: 750px;
+  margin: 0 auto;
+  list-style: none;
+}
+#navigation li {
+  float: left;
+}
+#navigation a {
+  display: block;
+  text-align: center;
+  width: 120px; /* fixed width */
+  text-decoration: none;
+  font-size: 15px;
+  padding: -10px;
+  color: black;
 }
 
 .logo {
-    
-        width: 300px;
-        display: flex;
-        flex-direction: column;
-        margin-left: 10px;
-        padding-bottom: 10px;
-    }
-
-    .goleft {
-        padding-left: 30px;
-    }
-
-    .section2 {
-        display: flex;
-        padding-left:130px;
-        padding-bottom:6rem;
-        
-    }
-.intro{
-    color: #61088A;
-    font-size: 40px;
-    font-family: Roboto Mono;
-    font-weight: 500;
-    line-height: 57.65px;
-    
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  padding-bottom: 10px;
 }
 
-.intro-about{
-    font-size: 17px;
-    padding-top: 40px;
+.goleft {
+  padding-left: 30px;
+}
+
+.section2 {
+  display: flex;
+  padding-left: 130px;
+  padding-bottom: 6rem;
+}
+.intro {
+  color: #61088a;
+  font-size: 40px;
+  font-family: Roboto Mono;
+  font-weight: 500;
+  line-height: 57.65px;
+}
+
+.intro-about {
+  font-size: 17px;
+  padding-top: 40px;
 }
 
 .second-intro {
-    padding-top: 10.25rem;
-    padding-left: 10.25rem;
+  padding-top: 10.25rem;
+  padding-left: 10.25rem;
 }
 
 .imagee {
-    padding-top: 5.25rem;
+  padding-top: 5.25rem;
 }
 .right-intro {
-    padding-right: 9.75rem;
-    padding-top: 5rem;
-    font-size: 17px;
+  padding-right: 9.75rem;
+  padding-top: 5rem;
+  font-size: 17px;
 }
 
 .right-second {
-    padding-top: 12.25rem;
-    padding-left: 10rem;
-    font-weight: 40px;
+  padding-top: 12.25rem;
+  padding-left: 10rem;
+  font-weight: 40px;
 }
 
-.section3{
-    background-color: white;
+.section3 {
+  background-color: white;
 }
 
 .about {
-    
-color: #61088A;
- font-size: 48px;
- font-family: Roboto Mono;
- font-weight: 600;
- line-height: 79.49px;
- padding-left: 12rem;
- padding-top: 20px;
+  color: #61088a;
+  font-size: 48px;
+  font-family: Roboto Mono;
+  font-weight: 600;
+  line-height: 79.49px;
+  padding-left: 12rem;
+  padding-top: 20px;
 }
 
 .project {
-    flex-direction: column;
+  flex-direction: column;
 }
 .projects {
-    padding-left: 15rem;
-    padding-top: 2rem;
-    border-left:#61088A;
-    flex-direction: column;
+  padding-left: 15rem;
+  padding-top: 2rem;
+  border-left: #61088a;
+  flex-direction: column;
 }
 .projects-detail {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 .twenty {
-font-size: 30px;
-/* padding-right:3rem; */
+  font-size: 30px;
+  /* padding-right:3rem; */
 }
-
 
 /* .verticalLine {
     height: 300px;
@@ -165,29 +155,29 @@ font-size: 30px;
     right: 50%;
 } */
 
-.line{
-    width: 2px;
-    height: 450px;
-    /* transform: rotate(90deg);
+.line {
+  width: 2px;
+  height: 450px;
+  /* transform: rotate(90deg);
     position: relative; */
-    top: 198px;
-    left: -100px; 
-    background: #61088A;
-    margin-left: 30px;
+  top: 198px;
+  left: -100px;
+  background: #61088a;
+  margin-left: 30px;
 }
 
 .aboutme-detail {
-    color: #61088A;
-    font-weight: 600;
-    margin-left: 40px;
-    margin-top:24px;
+  color: #61088a;
+  font-weight: 600;
+  margin-left: 40px;
+  margin-top: 24px;
 }
 .aboutme-detail1 {
-    color: black;
-    font-weight: 300;
-    font-size: 14px;
-    padding-top: 10px;
-   margin-left: 40px;
+  color: black;
+  font-weight: 300;
+  font-size: 14px;
+  padding-top: 10px;
+  margin-left: 40px;
 }
 
 /* .box {
@@ -198,37 +188,37 @@ font-size: 30px;
  
   */
 /* skill list style*/
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
-    gap: 10px 10px;
-    margin-top: 20px;
-    margin-left: 10px;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 200px));
+  gap: 10px 10px;
+  margin-top: 20px;
+  margin-left: 10px;
 }
 
 .grid-container > div {
-    display: flex;
-    align-items: center;
-    margin-left: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
 }
 
 .icon {
-    margin-right: 10px; /* Add spacing between the icon and text */
+  margin-right: 10px; /* Add spacing between the icon and text */
 }
 
-li{
-    letter-spacing: 1px;
-    justify-content: center;
+li {
+  letter-spacing: 1px;
+  justify-content: center;
 }
 /* Add any other styling as needed */
 
- .about-button {
-    height: 40px;
-    width:125px;
-    margin: 20px;
- }
+.about-button {
+  height: 40px;
+  width: 125px;
+  margin: 20px;
+}
 
- /* .qualification_rounder {
+/* .qualification_rounder {
     border-radius: 50%;
     display: inline-block;
     height: 13px;
@@ -236,53 +226,56 @@ li{
     background-color: red;
  } */
 
- .qualification_line {
-    width: 2px;
-    height: 450px;
-    /* transform: rotate(90deg);
+.qualification_line {
+  width: 2px;
+  height: 450px;
+  /* transform: rotate(90deg);
     position: relative; */
-    top: 198px;
-    left: -100px; 
-    background: #61088A;
-    margin-left: 30px;
- }
+  top: 198px;
+  left: -100px;
+  background: #61088a;
+  margin-left: 30px;
+}
 
-
-
- .section4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* This sets the section to take the full viewport height, adjust as needed */
+.section4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This sets the section to take the full viewport height, adjust as needed */
 }
 
 /* Add this CSS for the child elements to style them as needed */
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .timeline {
-    position: relative;
-    max-width: 1200px;
-    margin: 100px auto;
-
+  position: relative;
+  max-width: 1200px;
+  margin: 100px auto;
 }
 
 .container {
-    padding: 10px 50px;
-    position: relative;
-    width: 50%;
-
+  padding: 10px 50px;
+  position: relative;
+  width: 50%;
 }
 
-.text-box{
-    padding: 20px 30px;
-    background: #fff;
-    position: relative;
-    border-radius: 6px;
-    font-size: 15px;
+.text-box {
+  padding: 20px 30px;
+  background: #fff;
+  position: relative;
+  border-radius: 6px;
+  font-size: 15px;
+  width: 30rem;
 }
 
+.left-container {
+  left: 0%;
+}
 
+.right-container {
+  left: 50%;
 
+}
