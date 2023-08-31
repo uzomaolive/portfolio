@@ -3,6 +3,7 @@
 
 * {
   text-decoration: none;
+  
 }
 
 /* fonts */
@@ -250,16 +251,18 @@ li {
   text-align: center;
 }
 
-.timeline {
+/* .timeline {
   position: relative;
   max-width: 1200px;
   margin: 100px auto;
+  
 }
 
 .container {
   padding: 10px 50px;
   position: relative;
   width: 50%;
+  background: rgba(0, orchid);
 }
 
 .text-box {
@@ -268,14 +271,118 @@ li {
   position: relative;
   border-radius: 6px;
   font-size: 15px;
-  width: 30rem;
-}
+  /* width: 30rem; */
+/* }
 
 .left-container {
   left: 0%;
 }
 
 .right-container {
-  left: 50%;
+  left: 40%;
 
+} */ 
+
+/* .dots {
+    height: 25px;
+    width: 25px;
+    background-color: purple;
+    border: 7px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right: 54px;
+    top: 32px;
+    z-index: 10;
+  }
+  
+  .right-container span {
+    left: 54px;
+  }
+
+  .timeline::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #fff;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+    animation: moveline 6s linear forwards;
+  }
+  @keyframes moveline {
+    0% {
+        height: 0;
+
+    }
+    100%{
+        height: 100%;
+    }
+  } */
+
+.timeline2::before {
+content: "";
+position: absolute;
+top: 24px;
+left: calc(33% + 15px);
+bottom: 0px;
+width: 4px;
+background: #ddd;
+
+}
+
+
+.timeline2 {
+    width: 100%;
+    /* max-width: 800px; */
+    padding: 100px 50px;
+    position: relative;
+    
+}
+.timeline2::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    /* background-color: white; */
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+  }
+
+.entry {
+    clear: both;
+    text-align: left;
+    position: relative;
+}
+
+.entry .title {
+    margin-bottom: 0.5em;
+    float: left;
+    width: 33%;
+    padding-right: 30px;
+    text-align: right;
+    position: relative;
+}
+
+.entry .body {
+    margin: 0 0 3em;
+    float: right;
+    width: 66%;
+    padding-left: 30px;
+}
+
+.entry .title:before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background: #61088a;
+    border: 3px solid white;
+    border-radius: 50%;
+    top: 15%;
+    right: -8px;
+    z-index: 99;
 }
