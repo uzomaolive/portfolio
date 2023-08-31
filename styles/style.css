@@ -307,8 +307,8 @@ position: absolute;
 top: 24px;
 left: calc(33% + 15px);
 bottom: 0px;
-width: 4px;
-background: #ddd;
+width: 1px;
+background: #61088a;
 
 }
 
@@ -356,8 +356,8 @@ background: #ddd;
 .entry .title:before {
     content: "";
     position: absolute;
-    width: 14px;
-    height: 14px;
+    width: 18px;
+    height: 17px;
     background: #61088a;
     border: 3px solid white;
     border-radius: 50%;
