@@ -234,7 +234,6 @@ li {
   flex-direction: column;
   /* justify-content: center;
   align-items: center; */
-  height: 70vh; /* This sets the section to take the full viewport height, adjust as needed */
 }
 
 /* Add this CSS for the child elements to style them as needed */
@@ -242,37 +241,7 @@ li {
   text-align: center;
 }
 
-/* .timeline {
-  position: relative;
-  max-width: 1200px;
-  margin: 100px auto;
-  
-}
 
-.container {
-  padding: 10px 50px;
-  position: relative;
-  width: 50%;
-  background: rgba(0, orchid);
-}
-
-.text-box {
-  padding: 20px 30px;
-  background: #fff;
-  position: relative;
-  border-radius: 6px;
-  font-size: 15px;
-  /* width: 30rem; */
-/* }
-
-.left-container {
-  left: 0%;
-}
-
-.right-container {
-  left: 40%;
-
-} */ 
 
 
   /* .right-container span {
