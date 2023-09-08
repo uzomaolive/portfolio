@@ -347,3 +347,14 @@ background: #61088a;
     right: -8px;
     z-index: 99;
 }
+
+.line2 {
+  width: 1px;
+  height: 118px;
+  /* transform: rotate(90deg);
+    position: relative; */
+  top: 108px;
+  left: -100px;
+  background: #61088a;
+  margin-left: 30px;
+}
