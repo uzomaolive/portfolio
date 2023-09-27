@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
-
+  <!-- Include the Email.js library -->
+      <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
     <title>Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -364,37 +365,35 @@
             <div class="line2"></div>
 
         </div>
-        <div>
-            <form>
-                <div class="flex">
-                    <div>
-                        <label for="name">Your Name</label>
-                        <input type="text" placeholder="Enter your name" id="name">
-                    </div>
 
-                    <div>
-                        <label for="name">Email Address</label>
-                        <input type="email" placeholder="Enter your email address" id="name">
-                    </div>
-                </div>
-
-                <div>
-                    <label for="message">Your Message</label>
-                    <textarea rows="2" placeholder="Have a question, need assistance, or just want to get in touch? Don't hesitate to reach out!"></textarea> 
-                </div>
-            </form>
-
+ 
+  <form id="myForm">
+    <div class="flex-container">
+        <div class="flex-row">
+            <div class="flex-item">
+                <label for="name">Your Name</label>
+                <input type="text" placeholder="Enter your name" id="name">
+            </div>
+           
+            <div class="flex-item">
+                <label for="email">Email Address</label>
+                <input type="text" placeholder="Enter your email address" id="email"> 
+            </div>
         </div>
 
-    </section>
+        <div class="flex-item center">
+            <label  class="h" for="message">Your Message</label>
+            <textarea rows="2"  id="message"></textarea>
+        </div>
+        <button class="submit">submit</button>
+    </div>
+  </form>
 
-  
+</section>
+      
+<script src="main.js"></script>
+<script src="https://kit.fontawesome.com/b65f2f938c.js" crossorigin="anonymous"></script>
 
-    
-
-    <script src="./javascript/script.js"></script>
-
-    <script src="https://kit.fontawesome.com/b65f2f938c.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

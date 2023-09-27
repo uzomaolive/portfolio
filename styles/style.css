@@ -433,3 +433,64 @@ background: #6C63FF;
   opacity: 1;
   transform: translateY(0);
 }
+
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column; /* Items in a column */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    gap: 40px; /* Add spacing between the items */
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row; /* Items in a row */
+    justify-content: center; /* Center the items horizontally in the row */
+    align-items: center; /* Center the items vertically in the row */
+    gap: 90px; 
+   width: 900px;
+}
+
+.flex-item {
+    max-width: 900px; /* Limit the maximum width of each item */
+    text-align: left; /* Align text to the left within the items */
+    width: 100%; /* Make the items take the full width */
+}
+
+.flex-item.message {
+    max-width: none; /* Remove the maximum width for the message item */
+}
+
+input, textarea {
+    border: 0;
+    padding: 0.6em;
+    padding-left: 0;
+    position: relative;
+    color: currentColor;
+    background: transparent;
+    border-bottom: 1px solid currentColor;
+    width: 100%; /* Make the input fields take the full width */
+}
+
+label {
+    display: block; /* Ensure labels are displayed as blocks (one per line) */
+    margin-bottom: 2px; /* Add some space below each label */
+    text-align: left; /* Align text to the left within labels */
+    margin-right: 0;
+}
+
+textarea,input:focus {
+  outline: none; /* Remove the focus outline when in focus */
+}
+
+.submit{
+background-color: #61088A;
+padding: 10px;
+height: 40px;
+width: 90px;
+text-align: center;
+color: white;
+border-radius: 5px;
+}
