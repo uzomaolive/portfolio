@@ -461,7 +461,8 @@ background: #6C63FF;
 }
 
 .flex-item.message {
-    max-width: none; /* Remove the maximum width for the message item */
+    max-width: none;
+    height: 100px; /* Remove the maximum width for the message item */
 }
 
 input, textarea {
