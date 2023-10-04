@@ -457,6 +457,7 @@ background: #6C63FF;
     max-width: 900px; /* Limit the maximum width of each item */
     text-align: left; /* Align text to the left within the items */
     width: 100%; /* Make the items take the full width */
+    color: #61088A;
 }
 
 .flex-item.message {
