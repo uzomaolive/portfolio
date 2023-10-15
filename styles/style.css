@@ -243,15 +243,23 @@ li {
 
 .social-sidebar {
   position: fixed;
-  top: 50%;
+  top: 60%;
   transform: translateY(-50%);
   left: 0;
   color: #6C63FF;
-  background-color: white;
+  /* background-color: white; */
   margin-left: 159px;
+  font-size: 25px;
 
   /* background-color: #333; */
   padding: 20px;
+}
+
+.social-sidebar li {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 65%;
+
 }
 
 .social-icons {
