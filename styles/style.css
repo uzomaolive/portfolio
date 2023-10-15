@@ -241,6 +241,34 @@ li {
   text-align: center;
 }
 
+.social-sidebar {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  /* background-color: #333; */
+  padding: 20px;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons li {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  text-decoration: none;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  filter: invert(1); /* Inverts the color for white icons on a dark background */
+}
 
 
 
