@@ -281,7 +281,18 @@ li {
   filter: invert(1); /* Inverts the color for white icons on a dark background */
 }
 
-
+.email-sidebar {
+  position: fixed;
+  top: 60%;
+  transform: translateY(-50%);
+  right: 0;
+  color: #6C63FF;
+  margin-left: 74px;
+  font-size: 20px;
+  padding: 20px;
+  writing-mode:vertical-lr;
+  transform: rotate(0deg);
+}
 
   /* .right-container span {
     left: 54px;
