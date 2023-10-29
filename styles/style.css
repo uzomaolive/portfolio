@@ -80,8 +80,6 @@ body {
 }
 
 .section2 {
-  display: flex;
-  padding-left: 130px;
   padding-bottom: 6rem;
 }
 .intro {
