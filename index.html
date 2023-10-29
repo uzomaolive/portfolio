@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
-  <!-- Include the Email.js library -->
-      <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <!-- Include the Email.js library -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
     <title>Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -22,85 +22,104 @@
             }
         }
     </script>
-    
+
 </head>
 
 <body class="" style="background-color: #F8F7F1;">
     <nav class="">
-        <div class="xl:max-w-6x1 mx-auto">
-            <div class="flex justify-between items-center">
+        <!-- main navigation  -->
+        <div class="hidden md:flex justify-between items-center">
 
-                <div class="flex space-x-4 py-5 ps-4 pl-7 goleft">
-                    <!--logo -->
-                    <div class="pb-11 pt-7 pl-16 pr-20 w-72">
+            <div class="flex space-x-4 py-5 ps-4 pl-7 goleft">
+                <!--logo -->
+                <div class="pb-11 pt-7 pl-16 pr-20 w-72">
 
-                        <a href="#" class="items-center py-5 roboto-mono "> <img src="./images/logo.svg"></a> </div>
+                    <a href="#" class="items-center py-5 roboto-mono "> <img src="./images/logo.svg"></a> </div>
 
-                    <!--primary nav -->
-                    <div>
-                        <ul class="flex sm:flex-row md:flex-row items-center space-x-1 almarai py-7 px-5 ">
-                            <li class=" py-5 px-3 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900"><a
-                                    href="#">Home</a></li>
-                            <li class=" py-5 px-3 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900"><a
-                                    href="#">About</a></li>
-                            <li class=" py-5 px-3 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900"><a
-                                    href="#">Services</a></li>
-                            <li class=" py-5 px-3 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900"><a
-                                
-                                    href="#">Projects</a></li>
-                            <li class=" py-5 px-3 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900"><a
-                                    href="#">Blog</a></li>
-
-                        </ul>
-                    </div>
-                </div>
-
-                <!--secondary nav-->
-                <div class="flex items-center space-x-1 almarai py-7 pl-20 pr-28 mb-5">
-                    <a href="#" class="py-7 px-3">Contact</a>
-                    <i class="fa fa-volume-control-phone text-white bg-[#6C63FF] rounded-full p-2 hover:bg-[#61088A]"></i>
-
-                </div>
-            </div>
-    </nav>
-
-            <section class="section2 justify-around sm:flex flex-col sm:flex-row max-[600px]:bg-sky-300 max-[600px]:flex">
-                <div class="">
-                    <!-- <h1 class="text-2xl md:text-4xl lg:text-6xl">Welcome to My Website</h1> -->
-
-                    <h1 class="roboto-mono intro font-medium text-6xl md:text-4xl lg:text-4xl "> Hello There, <br> I'm Olive</h1>
-                    <p class="intro-about roboto-mono">I love photography</p>
-                    <p class=" ps-8 roboto-mono second-intro">I love Coding</p>
-                </div>
-
-                <div class="imagee md:shrink-0">
-                    <img class="sm:max-w-xl"src="./images/undraw_my_documents_re_13dc 1.svg">
-                </div>
-
+                <!--primary nav -->
                 <div>
-                    <p class="roboto-mono right-intro">I am a passionate and proficient <br>WordPress designer and
-                        experience<br> designer.</p>
-                    <p class="roboto-mono ps-8 right-second">I love solving problems</p>
-                </div>
-                <div class="social-sidebar">
-                    <ul class="social-icons">
-                        <li><a href="https://github.com/uzomaolive" target="_blank"><i class="fa-brands fa-github  rounded-full p-2"></i></a></li>
+                    <ul class="flex sm:flex-row md:flex-row items-center space-x-1 almarai py-7 px-5 ">
+                        <li class=" py-5 px-3 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900"><a
+                                href="#">Home</a></li>
+                        <li class=" py-5 px-3 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900"><a
+                                href="#">About</a></li>
+                        <li class=" py-5 px-3 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900"><a
+                                href="#">Services</a></li>
+                        <li class=" py-5 px-3 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900"><a
+                                href="#">Projects</a></li>
+                        <li class=" py-5 px-3 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900"><a
+                                href="#">Blog</a></li>
 
-                        <li><a href="https://www.instagram.com/oliveuzoma/" target="_blank"><i class="fa-brands fa-instagram rounded-full p-2"></i></a></li>
-                        <li><a href="https://www.linkedin.com/in/olive-uzoma-27baa9172" target="_blank"><i class="fa-brands fa-linkedin-in rounded-full p-2"></i></a></li>
-                        <!-- <li><img href="#"src="./images/linkedin (3).svg" alt=""></li> -->
-                        <li><a href="https://twitter.com/UzomaOlive" target="_blank"><i class="fa-brands fa-twitter rounded-full p-2"></i></a></li>
                     </ul>
                 </div>
-            </section>
+            </div>
+
+            <!--secondary nav-->
+            <div class="flex items-center space-x-1 almarai py-7 pl-20 pr-28 mb-5">
+                <a href="#" class="py-7 px-3">Contact</a>
+                <i class="fa fa-volume-control-phone text-white bg-[#6C63FF] rounded-full p-2 hover:bg-[#61088A]"></i>
+
+            </div>
+        </div>
+
+        <!-- mobile navigation  -->
+        <div class="mobile-nav md:hidden">
+            <a href="#"><img src="./images/logo.svg" alt="logo"></a>
+            <div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a herf="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section2 justify-around sm:flex flex-col sm:flex-row max-[600px]:bg-sky-300 max-[600px]:flex">
+        <div class="">
+            <!-- <h1 class="text-2xl md:text-4xl lg:text-6xl">Welcome to My Website</h1> -->
+
+            <h1 class="roboto-mono intro font-medium text-6xl md:text-4xl lg:text-4xl "> Hello There, <br> I'm Olive
+            </h1>
+            <p class="intro-about roboto-mono">I love photography</p>
+            <p class=" ps-8 roboto-mono second-intro">I love Coding</p>
+        </div>
+
+        <div class="imagee md:shrink-0">
+            <img class="sm:max-w-xl" src="./images/undraw_my_documents_re_13dc 1.svg">
+        </div>
+
+        <div>
+            <p class="roboto-mono right-intro">I am a passionate and proficient <br>WordPress designer and
+                experience<br> designer.</p>
+            <p class="roboto-mono ps-8 right-second">I love solving problems</p>
+        </div>
+        <div class="social-sidebar">
+            <ul class="social-icons">
+                <li><a href="https://github.com/uzomaolive" target="_blank"><i
+                            class="fa-brands fa-github  rounded-full p-2"></i></a></li>
+
+                <li><a href="https://www.instagram.com/oliveuzoma/" target="_blank"><i
+                            class="fa-brands fa-instagram rounded-full p-2"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/olive-uzoma-27baa9172" target="_blank"><i
+                            class="fa-brands fa-linkedin-in rounded-full p-2"></i></a></li>
+                <!-- <li><img href="#"src="./images/linkedin (3).svg" alt=""></li> -->
+                <li><a href="https://twitter.com/UzomaOlive" target="_blank"><i
+                            class="fa-brands fa-twitter rounded-full p-2"></i></a></li>
+            </ul>
+        </div>
+    </section>
 
 
-          <section class=" section-4 bg-white flex flex-col py-12">
-           <h1 class="about font-medium ml-24 font-extralight">About Me</h1>
-           <div class="email-sidebar">
+    <section class=" section-4 bg-white flex flex-col py-12">
+        <h1 class="about font-medium ml-24 font-extralight">About Me</h1>
+        <div class="email-sidebar">
             <p>olive@oliveuzoma.com</p>
-           </div>
-            <div class="flex justify-normal py-8">
+        </div>
+        <div class="flex justify-normal py-8">
             <div class="projects pr-8">
                 <div class="projects-detail flex flex-col items-end text-right">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -173,7 +192,7 @@
                                 fill-opacity="0.04" stroke="#6C63FF" />
                         </svg>
                         <h3>Figma</h3>
-                    
+
                     </div>
                     <div>
                         <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg"
@@ -182,228 +201,281 @@
                                 fill-opacity="0.04" stroke="#6C63FF" />
                         </svg>
                         <h3>PHP</h3>
-                </div>
+                    </div>
 
-                <div>
-                    <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg"
-                        class="icon">
-                        <path d="M0.804042 1.42554L14.2365 6.69706L1.20142 12.8863L0.804042 1.42554Z" fill="#61088A"
-                            fill-opacity="0.04" stroke="#6C63FF" />
-                    </svg>
-                    <h3>Javascript</h3>
-            </div>
-            <button class="rounded-md bg-[#61088A] text-[#fff] about-button " style="box-shadow: 0 5px 3px rgba(0, 0, 0, 0.17)">About Me</button>
-            
-        </div>
+                    <div>
+                        <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            class="icon">
+                            <path d="M0.804042 1.42554L14.2365 6.69706L1.20142 12.8863L0.804042 1.42554Z" fill="#61088A"
+                                fill-opacity="0.04" stroke="#6C63FF" />
+                        </svg>
+                        <h3>Javascript</h3>
+                    </div>
+                    <button class="rounded-md bg-[#61088A] text-[#fff] about-button "
+                        style="box-shadow: 0 5px 3px rgba(0, 0, 0, 0.17)">About Me</button>
+
+                </div>
 
     </section>
     <section class="section4 py-12">
         <h1 class="text-center font-medium intro py-8" style=" margin-left: -30rem;"> My Work Experience</h1>
         <div class="timeline2 py-12">
             <div class="entry">
-              <div class="title">
-                <h3 class="text-[#61088A] roboto-mono font-medium">350.org</h3>
-               <small clas="roboto-mono">May, 2022  - Present </small>
-              </div>
-              <div class="body">
-               <h3 class="roboto-mono text-[#61088A] font-medium"> Product Support</h3>
-                <p class="" style="line-height: 2">This includes training internal teams and external clients, offering technical support, <br>contributing to product development and testing, responding to inquiries and <br> complaints, and monitoring interactions for product improvement.</p>
-              </div>
+                <div class="title">
+                    <h3 class="text-[#61088A] roboto-mono font-medium">350.org</h3>
+                    <small clas="roboto-mono">May, 2022 - Present </small>
+                </div>
+                <div class="body">
+                    <h3 class="roboto-mono text-[#61088A] font-medium"> Product Support</h3>
+                    <p class="" style="line-height: 2">This includes training internal teams and external clients,
+                        offering technical support, <br>contributing to product development and testing, responding to
+                        inquiries and <br> complaints, and monitoring interactions for product improvement.</p>
+                </div>
             </div>
 
             <div class="entry">
                 <div class="title">
-                  <h3 class="text-[#61088A] roboto-mono font-medium">Pearl Impact Network</h3>
-                 <small clas="roboto-mono">Jan 2021  - Present </small>
+                    <h3 class="text-[#61088A] roboto-mono font-medium">Pearl Impact Network</h3>
+                    <small clas="roboto-mono">Jan 2021 - Present </small>
                 </div>
                 <div class="body">
-                 <h3 class="roboto-mono text-[#61088A] font-medium"> Volunteer</h3>
-                  <p class="" style="line-height: 2">I handle UI/UX tasks, write social media content, offer design suggestions,<br> provide insights for progress, and design various interfaces and wireframes, <br>including login pages and a blood checker app.</p>
+                    <h3 class="roboto-mono text-[#61088A] font-medium"> Volunteer</h3>
+                    <p class="" style="line-height: 2">I handle UI/UX tasks, write social media content, offer design
+                        suggestions,<br> provide insights for progress, and design various interfaces and wireframes,
+                        <br>including login pages and a blood checker app.</p>
                 </div>
-              </div>
+            </div>
 
-              <div class="entry">
+            <div class="entry">
                 <div class="title">
-                  <h3 class="text-[#61088A] roboto-mono font-medium">Ighub</h3>
-                 <small clas="roboto-mono">Aug, 2018  - Jan, 2020  </small>
+                    <h3 class="text-[#61088A] roboto-mono font-medium">Ighub</h3>
+                    <small clas="roboto-mono">Aug, 2018 - Jan, 2020 </small>
                 </div>
                 <div class="body">
-                 <h3 class="roboto-mono text-[#61088A] font-medium"> Web Dev & Content</h3>
-                  <p class="" style="line-height: 2">This involves teaching/onboarding interns, supervising their progress, coordinating WordPress events, <br>building client websites, generating social media content ideas, researching event speakers,<br> managing Google My Business listings, etc.</p>
-              </div>
-              
-          
+                    <h3 class="roboto-mono text-[#61088A] font-medium"> Web Dev & Content</h3>
+                    <p class="" style="line-height: 2">This involves teaching/onboarding interns, supervising their
+                        progress, coordinating WordPress events, <br>building client websites, generating social media
+                        content ideas, researching event speakers,<br> managing Google My Business listings, etc.</p>
+                </div>
+
+
     </section>
 
     <section class="section5 bg-white py-12">
         <h1 class="text-center font-medium intro py-8" style=" margin-left: -18rem;"> My Projects</h1>
 
         <!-- project detail 1 -->
-        <div class="flex justify-end mr-52 gap-4 py-12"> 
+        <div class="flex justify-end mr-52 gap-4 py-12">
             <div class="w-2/5 border border-[#6C63FF]">
-                <img src="./images/shop.png" alt="An online retail store featuring a picture of a happy man cheerfully giving a piggyback ride to a delighted woman.">
+                <img src="./images/shop.png"
+                    alt="An online retail store featuring a picture of a happy man cheerfully giving a piggyback ride to a delighted woman.">
             </div>
 
-            <div class="py-12"> 
+            <div class="py-12">
                 <h3 class="roboto-mono text-[#61088A] font-medium text-right">Featured Project</h3>
                 <h2 class="text-lg roboto-mono text-[#6C63FF] text-right font-medium pb-3">ShopSmart</h2>
-               <p class="bg-[#F8F7F1] p-8 text-right break-words" style="margin-left: -60px;"> Our dropshipping ecommerce site offers a platform for customers to explore and <br>purchase a variety of products without the traditional inventory model. We partner <br>with reputable suppliers to showcase an extensive array of items,<br> spanning from fashion, etc.</p>
-         </div>
-      </div>
-            
-    
-      <!-- project detail 2 -->
-      <div class="project2 flex justify-end mr-52 gap-4 py-12">
-         <div class="py-12">
-               <h3 class="roboto-mono text-[#61088A] font-medium">Featured Project</h3>
+                <p class="bg-[#F8F7F1] p-8 text-right break-words" style="margin-left: -60px;"> Our dropshipping
+                    ecommerce site offers a platform for customers to explore and <br>purchase a variety of products
+                    without the traditional inventory model. We partner <br>with reputable suppliers to showcase an
+                    extensive array of items,<br> spanning from fashion, etc.</p>
+            </div>
+        </div>
+
+
+        <!-- project detail 2 -->
+        <div class="project2 flex justify-end mr-52 gap-4 py-12">
+            <div class="py-12">
+                <h3 class="roboto-mono text-[#61088A] font-medium">Featured Project</h3>
                 <h2 class="ext-lg roboto-mono text-[#6C63FF] font-medium pb-3">EduTech</h2>
-                <p class="bg-[#F8F7F1] relative p-8 break-words" style=" margin-right: -60px;">Our dropshipping ecommerce site offers a platform for customers to explore and <br>purchase a variety of products without the traditional inventory model. We partner <br>with reputable suppliers to showcase an extensive array of items,<br> spanning from fashion, etc.</p>
-          </div>
-          <div class="w-2/5 border border-[#6C63FF]">
-            <img src="./images/school.png" alt="A background image that includes a group of graduates flinging their graduation cap in the air">
-          </div>
+                <p class="bg-[#F8F7F1] relative p-8 break-words" style=" margin-right: -60px;">Our dropshipping
+                    ecommerce site offers a platform for customers to explore and <br>purchase a variety of products
+                    without the traditional inventory model. We partner <br>with reputable suppliers to showcase an
+                    extensive array of items,<br> spanning from fashion, etc.</p>
+            </div>
+            <div class="w-2/5 border border-[#6C63FF]">
+                <img src="./images/school.png"
+                    alt="A background image that includes a group of graduates flinging their graduation cap in the air">
+            </div>
 
-      </div>
- 
-      <!-- Project detail 3 -->
+        </div>
 
-      <div class="flex justify-end mr-52 gap-4 py-12"> 
-          <div class="w-2/5 border border-[#6C63FF]">
-            <img src="./images/shop.png" alt="An online retail store featuring a picture of a happy man cheerfully giving a piggyback ride to a delighted woman.">
-          </div>
+        <!-- Project detail 3 -->
 
-          <div class="py-12"> 
-            <h3 class="roboto-mono text-[#61088A] font-medium text-right">Featured Project</h3>
-            <h2 class="text-lg roboto-mono text-[#6C63FF] text-right font-medium pb-3">ShopSmart</h2>
-           <p class="bg-[#F8F7F1] p-8 text-right break-words" style="margin-left: -60px;"> Our dropshipping ecommerce site offers a platform for customers to explore and <br>purchase a variety of products without the traditional inventory model. We partner <br>with reputable suppliers to showcase an extensive array of items,<br> spanning from fashion, etc.</p>
-          </div>
-     </div>
-    
+        <div class="flex justify-end mr-52 gap-4 py-12">
+            <div class="w-2/5 border border-[#6C63FF]">
+                <img src="./images/shop.png"
+                    alt="An online retail store featuring a picture of a happy man cheerfully giving a piggyback ride to a delighted woman.">
+            </div>
+
+            <div class="py-12">
+                <h3 class="roboto-mono text-[#61088A] font-medium text-right">Featured Project</h3>
+                <h2 class="text-lg roboto-mono text-[#6C63FF] text-right font-medium pb-3">ShopSmart</h2>
+                <p class="bg-[#F8F7F1] p-8 text-right break-words" style="margin-left: -60px;"> Our dropshipping
+                    ecommerce site offers a platform for customers to explore and <br>purchase a variety of products
+                    without the traditional inventory model. We partner <br>with reputable suppliers to showcase an
+                    extensive array of items,<br> spanning from fashion, etc.</p>
+            </div>
+        </div>
+
     </section>
-   
+
     <section class="blog py-12">
         <h1 class="text-center font-medium intro pt-8"> My Blog</h1>
 
         <div class="flex justify-center gap-4 pb-16" style="padding-left: 22rem">
             <div class="line2"></div>
-            <p class="roboto-mono">I write too :) I love writing about my new<br> experience (s), love writing about my coding<br> journey, my pets too, hehe and many more,<br> so stay tuned.! </p>
+            <p class="roboto-mono">I write too :) I love writing about my new<br> experience (s), love writing about my
+                coding<br> journey, my pets too, hehe and many more,<br> so stay tuned.! </p>
 
         </div>
 
         <!-- Blog Topics -->
-        
+
 
         <div>
             <div class="ml-40 mr-40 border-x-2 border-b-2 shadow-lg pb-4">
                 <div class="flex items-center pl-4">
                     <div class="pl-24" style=" width: 40%;">
                         <h2 class="roboto-mono text-[#61088A] text-4xl">Latest Posts</h2>
-                        <p class="roboto-mono pt-2">Don't miss out on cool topics about <br> lifestyle, coding, wordpress, <br> and many more.</p>
-        
+                        <p class="roboto-mono pt-2">Don't miss out on cool topics about <br> lifestyle, coding,
+                            wordpress, <br> and many more.</p>
+
                         <div class="pt-2">
                             <button class="button2"><i class="fa-solid fa-arrow-left" style="color: #fff;"></i></button>
-                            <button class="button1 bg-[#61088A] border-x rounded-full"><i class="fa-solid fa-arrow-right" style="color: #fff;"></i></button>
+                            <button class="button1 bg-[#61088A] border-x rounded-full"><i
+                                    class="fa-solid fa-arrow-right" style="color: #fff;"></i></button>
                         </div>
                     </div>
-        
-              
-            <!-- Image section -->
-            <div class="flex">
-                <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
-                  <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-                    <div class="h-96 w-72">
-                      <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125 rounded-md" src="./images/priscilla-du-preez-7etIYqqw2jU-unsplash.jpg" alt="" />
-                    </div>
-                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-                    <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <h1 class="roboto-mono text-2xl font-bold text-white">Travel</h1>
-                      <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
-                     <a href="#">
-                      <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
-                    </a>
-                    </div>
-                  </div>
-                  <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-                    <div class="h-96 w-72">
-                      <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125 rounded-md" src="./images/coding.jpg" alt="" />
-                    </div>
-                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-                    <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <h1 class="roboto-mono text-2xl font-bold text-white">Coding</h1>
-                      <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
-                      <a href="#">
-                      <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
-                    </a>
-                    </div>
-                  </div>
-                  <div class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
-                    <div class="h-96 w-72 rounded-md">
-                      <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125 rounded-md" src="./images/lifestyle.jpg" alt="" />
-                    </div>
-                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
-                    <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-                      <h1 class="roboto-mono text-2xl font-bold text-white">Lifestyle</h1>
-                      <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci placeat.</p>
-                      <a href="#">
-                      <button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button>
-                    </a>
-                    </div>
-                  </div>
-                </div>
+
+
+                    <!-- Image section -->
+                    <div class="flex">
+                        <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+                            <div
+                                class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                                <div class="h-96 w-72">
+                                    <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125 rounded-md"
+                                        src="./images/priscilla-du-preez-7etIYqqw2jU-unsplash.jpg" alt="" />
+                                </div>
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70">
+                                </div>
+                                <div
+                                    class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                                    <h1 class="roboto-mono text-2xl font-bold text-white">Travel</h1>
+                                    <p
+                                        class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci
+                                        placeat.</p>
+                                    <a href="#">
+                                        <button
+                                            class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See
+                                            More</button>
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                                <div class="h-96 w-72">
+                                    <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125 rounded-md"
+                                        src="./images/coding.jpg" alt="" />
+                                </div>
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70">
+                                </div>
+                                <div
+                                    class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                                    <h1 class="roboto-mono text-2xl font-bold text-white">Coding</h1>
+                                    <p
+                                        class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci
+                                        placeat.</p>
+                                    <a href="#">
+                                        <button
+                                            class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See
+                                            More</button>
+                                    </a>
+                                </div>
+                            </div>
+                            <div
+                                class="group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+                                <div class="h-96 w-72 rounded-md">
+                                    <img class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125 rounded-md"
+                                        src="./images/lifestyle.jpg" alt="" />
+                                </div>
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70">
+                                </div>
+                                <div
+                                    class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                                    <h1 class="roboto-mono text-2xl font-bold text-white">Lifestyle</h1>
+                                    <p
+                                        class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolore adipisci
+                                        placeat.</p>
+                                    <a href="#">
+                                        <button
+                                            class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See
+                                            More</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-           
-                </div>
-            </div>
+
         </div>
-        
+        </div>
+        </div>
+
         <!-- added -->
 
     </section>
 
     <section class="contact bg-[#fff] py-12">
 
-       
+
         <h1 class="text-center font-medium intro pt-8"> Get In Touch</h1>
         <div class="flex justify-center gap-4 pb-16 pt-8" style="padding-right: 22rem">
-            
-            <p class="roboto-mono text-right leading-relaxed">Got a question or proposal, or just <br> want to say hello? Feel Free!
-                  </p>
+
+            <p class="roboto-mono text-right leading-relaxed">Got a question or proposal, or just <br> want to say
+                hello? Feel Free!
+            </p>
             <div class="line2"></div>
 
         </div>
 
- 
-  <form id="myForm">
-    <div class="flex-container">
-        <div class="flex-row">
-            <div class="flex-item">
-                <label for="name">Your Name</label>
-                <input type="text" placeholder="Enter your name" id="name">
+
+        <form id="myForm">
+            <div class="flex-container">
+                <div class="flex-row">
+                    <div class="flex-item">
+                        <label for="name">Your Name</label>
+                        <input type="text" placeholder="Enter your name" id="name">
+                    </div>
+
+                    <div class="flex-item">
+                        <label for="email">Email Address</label>
+                        <input type="text" placeholder="Enter your email address" id="email">
+                    </div>
+                </div>
+
+                <div class="flex-item center">
+                    <label class="h" for="message">Your Message</label>
+                    <textarea rows="2" id="message"></textarea>
+                </div>
+                <button class="submit roboto-mono">Send</button>
             </div>
-           
-            <div class="flex-item">
-                <label for="email">Email Address</label>
-                <input type="text" placeholder="Enter your email address" id="email"> 
-            </div>
-        </div>
-
-        <div class="flex-item center">
-            <label  class="h" for="message">Your Message</label>
-            <textarea rows="2"  id="message"></textarea>
-        </div>
-        <button class="submit roboto-mono">Send</button>
-    </div>
-  </form>
+        </form>
 
 
-</section>
+    </section>
 
-      
-<script src="main.js"></script>
-<script src="https://kit.fontawesome.com/b65f2f938c.js" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/feather-icons"></script>
+
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/b65f2f938c.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
 
 
 </body>
