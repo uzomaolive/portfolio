@@ -125,9 +125,7 @@ body {
   padding-top: 20px;
 }
 
-.project {
-  flex-direction: column;
-}
+
 .projects {
   padding-left: 15rem;
   padding-top: 2rem;
