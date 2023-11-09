@@ -278,14 +278,14 @@ li {
 }
 
 .email-sidebar {
-  position: fixed;
-  top: 60%;
+  /* position: fixed; */
+  /* top: 60%; */
   transform: translateY(-50%);
-  right: 0;
-  color: #6C63FF;
-  margin-left: 74px;
-  font-size: 20px;
-  padding: 20px;
+  /* right: 0; */
+  /* color: #6C63FF; */
+  /* margin-left: 74px; */
+  /* font-size: 20px; */
+  /* padding: 20px; */
   writing-mode:vertical-lr;
   transform: rotate(0deg);
 }
