@@ -45,27 +45,27 @@ body {
 
 
 
-.intro {
+/* .intro {
   color: #61088a;
   font-size: 40px;
   font-family: Roboto Mono;
   font-weight: 500;
   line-height: 57.65px;
-}
+} */
 
-.intro-about {
+/* .intro-about {
   font-size: 17px;
   padding-top: 40px;
-}
+} */
 
-.second-intro {
+/* .second-intro {
   padding-top: 10.25rem;
   padding-left: 10.25rem;
-}
+} */
 
-.imagee {
+/* .imagee {
   padding-top: 5.25rem;
-}
+} */
 /* .right-intro {
   padding-right: 9.75rem;
   padding-top: 5rem;
@@ -82,10 +82,10 @@ body {
 
 
 
-
+/* 
 .projects-detail {
   margin: 20px 0;
-}
+} */
 
 .twenty {
   font-size: 30px;
