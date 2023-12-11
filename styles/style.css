@@ -184,7 +184,7 @@ li {
   text-align: center;
 }
 
-.social-sidebar {
+/* .social-sidebar {
   position: fixed;
   top: 60%;
   transform: translateY(-50%);
@@ -195,27 +195,27 @@ li {
   font-size: 20px;
   /* background-color: #333; */
   padding: 20px;
-}
-
+} */
+/* 
 .social-sidebar li {
   background-color: #fff;
   padding: 10px;
   border-radius: 65%;
 
-}
+} */
 
-.social-icons {
+/* .social-icons {
   list-style: none;
   padding: 0;
-}
+} */
 
-.social-icons li {
+/* .social-icons li {
   margin-bottom: 10px;
-}
+} */
 
-.social-icons a {
+/* .social-icons a {
   text-decoration: none;
-}
+} */
 
 .social-icons img {
   width: 30px;
