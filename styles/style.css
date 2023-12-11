@@ -460,3 +460,16 @@ text-align: center;
 color: white;
 border-radius: 5px;
 }
+
+/* .scroll-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background-color: #007BFF;
+  color: rgb(138, 13, 13);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+} */
